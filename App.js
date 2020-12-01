@@ -17,7 +17,7 @@ class App extends Component {
         (res) => {
           this.setState({
             isLoaded: true,
-            items: res.rows
+            items: res.users
           });
         },
         (error) => {
